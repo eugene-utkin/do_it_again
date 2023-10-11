@@ -21,3 +21,4 @@ production:
   <<: *default
   database: do_it_again_production
   username: <%= ENV["DO_IT_AGAIN_DATABASE_USERNAME"] %>
+  password: <%= ENV["DO_IT_AGAIN_DATABASE_PASSWORD"] %>

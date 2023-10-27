@@ -52,6 +52,7 @@ group :development, :test do
 end
 
 group :development do
+  gem "rubocop"
   # Use console on exceptions pages [https://github.com/rails/web-console]
   gem "web-console"
 
@@ -65,6 +66,5 @@ end
 group :test do
   # Use system testing [https://guides.rubyonrails.org/testing.html#system-testing]
   gem "capybara"
-  gem "rubocop"
   gem "selenium-webdriver"
 end
